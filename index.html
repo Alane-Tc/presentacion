@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Presentación</title>
+</head>
+
+<body>
+    <!--Cabecera-->
+    <header id="header">
+        <div class="grid-item">
+            <img class="animate__animated animate__jackInTheBox animate__slower	3s" id="skin" src="src/img/persona.jpg" alt="foto-de-perfil" width="300px" height="300px"
+                title="Alan Tamez">
+            <h1 id="title-main" class="animate__animated animate__jackInTheBox animate__slower	3s">Alan Tamez</h1>
+        </div>
+    </header>
+
+    <section id="section-main">
+        <div class="grid-item">
+            <!---Web-->
+            <div id="web" class="col">
+                <h2 class="animate__bounceIn animate__slower	3s"><img class="img-icon" src="src/img/web.svg" alt="Web" title="web"
+                        width="50px" height="50px"> Mi
+                    sitio web</h2>
+            </div>
+
+            <!---Correo-->
+            <a id="text-Correo" href="mailto:alantamez28@hotmail.com">
+                <div id="correo" class="col">
+                    <h2 class="animate__bounceIn animate__slower	3s"><img class="img-icon" src="src/img/correo-electronico.svg"
+                            alt="Correo" title="web" width="50px" height="50px">
+                        Correo Electrónico</h2>
+                </div>
+            </a>
+
+            <!---Linkedin-->
+            <div id="linkedin" class="col">
+                <h2 class="animate__bounceIn animate__slower	3s"><img class="img-icon" src="src/img/linkedin.svg" alt="Linkedin"
+                        title="Linkedin" width="50px" height="50px"> Linkedin
+                </h2>
+            </div>
+
+            <!---GitHub-->
+            <div id="github" class="col">
+                <h2 class="animate__bounceIn animate__slower	3s"><img class="img-icon" src="src/img/github.svg" alt="Github" title="Github"
+                        width="50px" height="50px"> Github</h2>
+            </div>
+        </div>
+        <footer>
+            <div id="footer">© <span>
+                    <script>
+                        var d = new Date()
+                        document.write(d.getFullYear())
+                    </script>
+                </span> Copyright:
+                <a style="text-decoration: none; color: white;" href="index.html"> Alan Tamez</a>
+            </div>
+        </footer>
+    </section>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+
+</html>
